@@ -1,0 +1,63 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  /* colors */
+  --primary: #FF7A00;
+  --secondary: #393D86;
+  /* by default */
+  --wh: #fff;
+  --bl: #000;
+  --w30: #ffffff30;
+  --b30: #00000030;
+  /* settings */
+  --anim:cubic-bezier(1,-0.01,0,.99);
+}
+
+/* divs */
+@layer components {
+  .wh-w {
+    @apply w-[stretch] h-[1px] bg-w30
+  }
+  .wh-h {
+    @apply w-[1px] h-[stretch] bg-w30
+  }
+  .bl-w {
+    @apply w-[stretch] h-[1px] bg-b30
+  }
+  .bl-h {
+    @apply w-[1px] h-[stretch] bg-b30
+  }
+  .btn {
+    @apply py-4 px-6 w-fit border-transparent hover:bg-slate-200 duration-300 bg-slate-100 rounded-2xl text-xs items-center justify-center whitespace-nowrap
+  }
+  .selector {
+    @apply py-4 px-6 rounded-2xl border border-slate-200 text-xs flex items-center justify-center whitespace-nowrap w-fit
+  }
+  .input {
+    @apply pb-4 w-full bg-transparent border-b-[1px] hover:border-b-[1px] hover:border-b-[#0005] focus:outline-none focus:border-primary gap-6 duration-300
+  }
+  .link {
+    @apply text-black
+  }
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    -webkit-text-size-adjust: none;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-style: normal;
+    transition-duration: 500ms;
+  }
+
+  a:hover {
+    color: var(--primary);
+  }

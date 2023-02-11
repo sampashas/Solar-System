@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,400;1,600&display=swap');
+
+a,
+span {
+  font-size: 0.9rem;
+  font-weight: 400;
+  line-height: 110%;
+  letter-spacing: -0.03em;
+  text-decoration: none;
+}
+
+h1 {
+  font-size: 52px;
+  font-weight: 500;
+  line-height: 110%;
+  letter-spacing: -0.03em;
+}
+
+h2 {
+  font-size: 46px;
+  font-weight: 500;
+  line-height: 110%;
+  letter-spacing: -0.04em;
+}
+
+h3 {
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 110%;
+  letter-spacing: -0.03em;
+}
+
+h4 {
+  font-size: 1.1rem;
+  font-weight: 500;
+  line-height: 17px;
+  letter-spacing: -0.03em;
+}
+
+p {
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 100.02%;
+  letter-spacing: -0.05em;
+}
+
+@media only screen and (max-width: 600px) {
+  h1 {
+    font-size: 42px;
+    font-weight: 500;
+    line-height: 110%;
+    letter-spacing: -0.03em;
+  }
+
+  h2 {
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 110%;
+    letter-spacing: -0.03em;
+  }
+}
