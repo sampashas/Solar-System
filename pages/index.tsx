@@ -1,5 +1,5 @@
-import Scene from '../components/Scene'
 import Title from '../components/Title'
+import Scene from '../components/Scene'
 
 const Home = () => {
   return (
