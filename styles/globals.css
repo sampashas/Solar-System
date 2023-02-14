@@ -56,6 +56,7 @@
     -moz-osx-font-smoothing: grayscale;
     font-style: normal;
     transition-duration: 500ms;
+    background: black;
   }
 
   a:hover {
